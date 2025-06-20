@@ -18,9 +18,12 @@ def export_coll_to_csv(output_dir: str = "production_data/raw_data_dump"):
         # print(f"Collection {coll_name}: {len(documents)} documents")  
 
         if not documents:
+            # print(f"Skipped empty collection: {coll_name}")
             continue
 
         df = pd.json_normalize(documents)
+
         output_path = os.path.join(output_dir, f"{coll_name}.csv")
         df.to_csv(output_path, index=False)
         # print(f"Exported {coll_name} to {output_path}")
+
