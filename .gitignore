@@ -203,7 +203,9 @@ auth_tokens.ipynb
 job_hr_questions.ipynb
 job_hr_settings.ipynb
 
-# auth_keys.ipynb
-# candidates_errors.ipynb
-# messages.ipynb
-# questions.ipynb
+auth_keys.ipynb
+candidates_errors.ipynb
+messages.ipynb
+questions.ipynb
+main.ipynb
+mongo_query.ipynb
