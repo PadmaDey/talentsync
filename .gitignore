@@ -208,4 +208,6 @@ candidates_errors.ipynb
 messages.ipynb
 questions.ipynb
 main.ipynb
-mongo_query.ipynb
+# mongo_query.ipynb
+
+# git rm --cached app\eda\main.ipynb
