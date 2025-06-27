@@ -1,6 +1,9 @@
 import os
 import pandas as pd # type: ignore
 from app.db.connection import client
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def export_coll_to_csv(output_dir: str = "production_data/raw_data_dump"):
     # print(f"Exporting to: {output_dir}")  
